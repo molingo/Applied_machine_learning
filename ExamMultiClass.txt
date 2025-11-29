@@ -1,0 +1,31 @@
+Notes for the hyper tuning
+
+EPOCHS:
+Epochs start = 30... result= accuracy: 0.7172 - loss: 0.7272 
+test 50... result=accuracy: accuracy: 0.7429 - loss: 0.6917
+
+LAYER DENSITY default optimizer = "sgd":
+
+tested with 50 epochs...
+start 64 both.... result = accuracy: 0.7249 - loss: 0.6700 
+test both 100... result= accuracy: 0.7609 - loss: 0.6625 
+test both 200... result= accuracy: 0.7789 - loss: 0.6265
+test both 300... result= accuracy: 0.7506 - loss: 0.6487
+test first 500, second 200... result= accuracy: 0.7532 - loss: 0.6454
+test firts 1000, second 200... result= accuracy: 0.7661 - loss: 0.6319
+test first 200, second 500... result= accuracy: 0.7455 - loss: 0.6448  Macro F1 Score: 0.7502761505532681
+test first 200, second 1000... result= accuracy: 0.7455 - loss: 0.6488 
+test both 1000... result= accuracy: 0.7532 - loss: 0.6405
+test both 500 with optimizer="adam"... result=accuracy: 0.7224 - loss: 1.4174
+
+test with 100 epochs...
+test both 1000... result= accuracy: 0.7661 - loss: 0.6199 
+test both 200... result= accuracy: 0.7532 - loss: 0.6293
+test both 500... result= accuracy: 0.7686 - loss: 0.6207 Macro F1 Score: 0.7625331923452986
+test both 1000 with class balance... result= accuracy: 0.7249 - loss: 0.7093 
+test both 200 with optimizer="adam"... result= accuracy: 0.7224 - loss: 1.5514
+test both 1000 with optimizer="adam"... result= accuracy: 0.7584 - loss: 1.8884
+
+
+
+
