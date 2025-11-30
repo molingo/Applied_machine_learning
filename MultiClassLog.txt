@@ -27,3 +27,5 @@
 ('Epoch:1000', 'Layer:500', 'Optimizer:<keras.src.optimizers.adam.Adam object at 0x0000014B5BF0C050>', 'Macro F1 Score:0.7081', 'accuracy:0.7172', 'loss:0.7682')
 ('Epoch:1000', 'Layer:500', 'Optimizer:sgd', 'Macro F1 Score:0.7206', 'accuracy:0.7172', 'loss:0.7197')
 ('Epoch:1000', 'Layer:600', 'Optimizer:<keras.src.optimizers.adam.Adam object at 0x000002AD03148C20>', 'Macro F1 Score:0.7602', 'accuracy:0.7661', 'loss:0.7237')
+('Epoch:1000', 'Layer:500', 'Optimizer:<keras.src.optimizers.adam.Adam object at 0x000001DAF8324050>', 'Macro F1 Score:0.7629', 'accuracy:0.7686', 'loss:0.7122')
+('Epoch:1000', 'Layer:500', 'Optimizer:<keras.src.optimizers.adam.Adam object at 0x000001F50060C050>', 'Macro F1 Score:0.7635', 'accuracy:0.7661', 'loss:0.6846')
